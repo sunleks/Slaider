@@ -1,0 +1,2 @@
+# Slaider
+Simple sliader
