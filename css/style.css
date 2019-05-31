@@ -1,0 +1,27 @@
+.gallary {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 40vh;
+	
+}
+
+img {
+	position: absolute;
+	z-index: -1000;
+	width: 100%;
+	opacity: 0;
+	top: -250px;
+	transition: opacity 1s;
+}
+
+.img-show {
+	opacity: 1;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	margin: 80px auto;
+}
